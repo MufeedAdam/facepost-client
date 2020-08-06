@@ -7,6 +7,51 @@
   pointer-events: none;
 }
 
+.top{
+  background-color: #3b5998;
+  height: 10vh;
+}
+.bottom{
+  background-color: #f7f7f7;
+  height: 90vh;
+}
+.layBorderrow{
+  border-radius: 20px;
+  border: 1px solid rgb(197, 189, 189);
+
+}
+.layBorder{
+  border-radius: 25px;
+  border: 1px solid black;
+  
+}
+.ima{
+  width:5vh;
+    height: 5vh;
+}
+.texter{
+  color:white
+}
+.bottom1{
+  background-image: url('./bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.texttitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #3b5998;
+  font-size: larger;
+  text-align: left;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 7vh;
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
